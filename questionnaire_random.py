@@ -1,5 +1,4 @@
 from random import randint,shuffle
-from math import floor
 
 def lecture (chemin):
 	fichier=open(chemin,'r')
@@ -28,7 +27,7 @@ def randomiser(noms,questions):
 				
 def preparer_questionnaire(liste,q52):
 	shuffle(liste)
-	questionnaires=[liste[k:k+8]+[q52[a] for a in [randint(0,len(q52)-1)for i in range(3)]] for k in range(int(len(liste)/8))]
+	questionnaires=[liste[8*k:8*k+8]+[q52[a] for a in [randint(0,len(q52)-1)for i in range(3)]] for k in range(int(len(liste)/8))]
 	return questionnaires
 	
 def latexiser(questionnaire,numero):
