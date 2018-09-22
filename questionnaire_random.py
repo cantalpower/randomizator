@@ -95,11 +95,13 @@ Devoir Maison $\text{n}^{\circ}$1 \\
 \end{Huge}
 
 \hspace{1cm}
+\end{center}
 
 \begin{Large}
-\textsc{Nom} - Prénom
+\textsc{Nom} : \\
+
+Prénom :
 \end{Large}
-\end{center}
 
 \hspace{3cm}
 
